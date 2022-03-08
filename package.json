@@ -2,7 +2,7 @@
   "name": "chisfis",
   "version": "0.2.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://taneleertivan.github.io/travelagency/",
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "@headlessui/react": "^1.4.2",
@@ -22,6 +22,7 @@
     "Account": "^0.0.0",
     "add": "^2.0.6",
     "component": "^1.1.0",
+    "gh-pages": "^3.2.3",
     "google-map-react": "^2.1.10",
     "moment": "^2.29.1",
     "rc-slider": "^9.7.4",
