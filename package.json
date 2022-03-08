@@ -1,8 +1,8 @@
 {
-  "name": "chisfis",
-  "version": "0.2.0",
+  "name": "traveling",
+  "version": "0.2.1",
   "private": true,
-  "homepage": "https://taneleertivan.github.io/travelagency/",
+  "homepage": "",
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "@headlessui/react": "^1.4.2",
@@ -43,7 +43,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "component": " npx generate-react-cli component"
+    "component": " npx generate-react-cli component",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
